@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HYF Assignment 2020 06 28</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--
+    ---------------- 
+    Navigation Bar
+    ----------------
+    -->
+
+    <section class="navbar">
+      <nav class="main-nav">
+        <h3><a href="-blank">Logo</a></h3>
+        <h3><a href="-blank">Navigation</a></h3>
+      </nav>
+
+      <h1>Sign up to yourcutomtailor.com</h1>
+
+      <h2>Step 4/4 - Payment</h2>
+    </section>
+
+    <!--
+      --------------------- 
+       progress Bar
+      ---------------------
+      -->
+
+    <section class="p-bar">
+      <label for="file">progress</label>
+
+      <progress id="meter" value="95" max="100"></progress>
+    </section>
+
+    <!--
+      --------------------- 
+       form-1
+      ---------------------
+      -->
+    <article class="article-1">
+      <h4>
+        Please fill in your payment data
+      </h4>
+    </article>
+
+    <section class="form-1">
+      <div class="label-1">
+        <label for="n-card">Name on card<sup>*</sup></label>
+        <input type="text" name="n-card" id="n-card" />
+      </div>
+    </section>
+
+    <section class="form-1">
+      <div>
+        <label for="card">Card type</label>
+
+        <select name="card" id="c1">
+          <option value="visa-card">Visa Card</option>
+          <option value="master-card">Master Card</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="form-1">
+      <div>
+        <label for="card-num">Credit card number</label>
+        <input type="text" name="card-num" id="card-num" />
+      </div>
+
+      <div>
+        <label for="f-name">First name</label>
+        <input type="text" name="f-name-c" id="f-name-c" />
+      </div>
+    </section>
+
+    <section class="form-1">
+      <div class="f-in-f">
+        <div>
+          <label for="expiry-m">Expiry month</label>
+          <input type="text" name="expiry-m" id="expiry-m" pattern="[0-9]{2}" />
+        </div>
+        <div>
+          <label for="expiry-y">Expiry year</label>
+          <input type="text" name="expiry-y" id="expiry-y" pattern="[0-9]{4}" />
+        </div>
+
+        <div>
+          <label for="ccv">CCV</label>
+          <input type="text" name="ccv" id="ccv" pattern="[0-9]{3}" />
+        </div>
+      </div>
+    </section>
+
+    <!--
+        --------------------- 
+        Next Step
+        ---------------------
+        -->
+
+    <div class="next-step">
+      <a href="./index-1.html" class="n-step"> Next step</a>
+    </div>
+  </body>
+</html>

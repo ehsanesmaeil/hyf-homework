@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HYF Assignment 2020 06 28</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--
+    ---------------- 
+    Navigation Bar
+    ----------------
+    -->
+
+    <section class="navbar">
+      <nav class="main-nav">
+        <h3><a href="-blank">Logo</a></h3>
+        <h3><a href="-blank">Navigation</a></h3>
+      </nav>
+
+      <h1>Sign up to yourcutomtailor.com</h1>
+
+      <h2>Step 2/4 - how can we reach you?</h2>
+    </section>
+
+    <!--
+      --------------------- 
+       progress Bar
+      ---------------------
+      -->
+
+    <section class="p-bar">
+      <label for="file">progress</label>
+
+      <progress id="meter" value="50" max="100"></progress>
+    </section>
+
+    <!--
+      --------------------- 
+       form-1
+      ---------------------
+      -->
+    <article class="article-1">
+      <h4>
+        We will probably need to stay in touch somehow. Let is know how we can
+        reach you?
+      </h4>
+    </article>
+
+    <section class="form-1">
+      <div class="label-1">
+        <label for="email">Email<sup>*</sup></label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div class="label-2">
+        <label for="phone">Phone</label>
+        <input
+          type="tell"
+          name="phone"
+          id="phone"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          placeholder="123-45-678"
+        />
+      </div>
+    </section>
+
+    <section class="form-1">
+      <div>
+        <label for="password">Password<sup>*</sup></label>
+        <input type="password" name="pass" id="pass" placeholder="*********" />
+      </div>
+    </section>
+
+    <section class="form-1">
+      <div>
+        <label for="re-password">Re-enter Password<sup>*</sup></label>
+        <input
+          type="re-password"
+          name="re-pass"
+          id="re-pass"
+          placeholder="*********"
+        />
+      </div>
+    </section>
+
+    <!----------------------- 
+       form-2
+      ----------------------->
+
+    <article class="article-2">
+      <h4>
+        I want to sign up for the newsletter
+      </h4>
+    </article>
+
+    <section class="form-2">
+      <div class="label-1">
+        <label for="weekly">Weekly news</label>
+        <input type="radio" name="weekly" id="w1" />
+      </div>
+
+      <div class="label-2">
+        <label for="monthly">Monthly news</label>
+        <input type="radio" name="monthly" id="m1" />
+      </div>
+
+      <div class="label-3">
+        <label for="not-send">Don't send me news</label>
+        <input type="radio" name="not-send" id="n1" />
+      </div>
+    </section>
+
+    <!--
+        --------------------- 
+        Next Step
+        ---------------------
+        -->
+
+    <div class="next-step">
+      <a href="./index-3.html"> Next step</a>
+    </div>
+  </body>
+</html>
