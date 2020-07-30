@@ -7,7 +7,7 @@ function agify() {
   return "You will be " + age + " years old at 2050.";
 }
 
-console.log(agify());
+// console.log(agify());
 
 // ---------------- Exercise2  Code for dog Agify
 
@@ -26,7 +26,7 @@ function dogAgify() {
     return dogYearFuture - dogYearOfBirth;
   }
 }
-console.log(dogAgify());
+// console.log(dogAgify());
 
 // ---------------- Exercise3  Code for house Price
 
@@ -48,7 +48,7 @@ function housePricing() {
   }
 }
 
-console.log(housePricing());
+// console.log(housePricing());
 
 // ---------------- Exercise4  Code for Random StartUp Name
 
@@ -71,4 +71,4 @@ function startUpName() {
   return startUpName;
 }
 
-console.log(startUpName());
+// console.log(startUpName());
