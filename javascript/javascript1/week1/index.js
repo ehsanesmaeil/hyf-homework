@@ -1,4 +1,5 @@
-// ---------------- code for Agify
+// ---------------- Exercise1  Code for Agify
+
 function agify() {
   var yearOfBirth = window.prompt("Please, enter your year of birth");
   var yearFuture = window.prompt("Which year in future?");
@@ -6,9 +7,9 @@ function agify() {
   return "You will be " + age + " years old at 2050.";
 }
 
-console.log(agify());
+// console.log(agify());
 
-// ---------------- code for dog Agify
+// ---------------- Exercise2  Code for dog Agify
 
 function dogAgify() {
   var dogYearOfBirth = window.prompt("Please, enter your dog's year of birth");
@@ -25,9 +26,10 @@ function dogAgify() {
     return dogYearFuture - dogYearOfBirth;
   }
 }
-console.log(dogAgify());
+// console.log(dogAgify());
 
-// ---------------- code for house Price
+// ---------------- Exercise3  Code for house Price
+
 function housePricing() {
   var width = window.prompt("What is the width in meter?");
   var depth = window.prompt("What is the depth in meter? ");
@@ -46,9 +48,9 @@ function housePricing() {
   }
 }
 
-console.log(housePricing());
+// console.log(housePricing());
 
-// ---------------- code for house Random StartUp name
+// ---------------- Exercise4  Code for Random StartUp Name
 
 function startUpName() {
   var firstWords = ["easy", "Try", "Awesome", "Bing", "SoSo", "mindy", "wow!"];
@@ -69,4 +71,4 @@ function startUpName() {
   return startUpName;
 }
 
-console.log(startUpName());
+// console.log(startUpName());
